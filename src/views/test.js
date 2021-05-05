@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-class AboutPage extends Component {
+class Test extends Component {
   render() {
     return <div>测试页面</div>
   }
 }
 
-export default AboutPage;
+export default Test;

@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## 微应用本地开发调试打包脚本
+```
+npm run dev
+npm run build:micro
+```
 ## Available Scripts
 
 In the project directory, you can run:
