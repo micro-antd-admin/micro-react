@@ -28,14 +28,14 @@ class ProductTable extends Component {
         const cp = products.filter(p => p.category === c)
         const pr = cp.map((p, index) => <ProductRow product={p} key={c+index}/>)
         return (
-          <div key={c} >
+          <React.Fragment key={c}>
             <ProductCategoryRow category={c}/>
             <div className="product-row">
               <ul>
                 {pr}
               </ul>
             </div>
-          </div>
+          </React.Fragment>
         )
       })}
     </div>

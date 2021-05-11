@@ -9,7 +9,7 @@ class FilterableProductTable extends Component {
     super(props)
     this.state = {
       filterText: '',
-      inStockOnly: true
+      inStockOnly: false
     }
 
     this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
